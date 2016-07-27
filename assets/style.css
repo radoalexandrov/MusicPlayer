@@ -1,0 +1,104 @@
+@CHARSET "UTF-8";
+
+#container{
+	width: 80%;
+	margin: auto;
+	font-family: Verdana,Helevetic sans-serif;
+	
+}
+#header{
+	background-color: #3550ca;
+	color: white;
+}
+
+#header span{
+	margin-left: 1%;
+}
+
+#songInfo{
+	border: 1px solid blue;
+	margin-top: 10px;
+	display: block;
+	background-color: #c0c0c0;
+}
+
+#songImg{
+	height: 100px;
+	width: 100px;
+	margin-left: 20%;
+	padding: 2px;
+}
+
+#songName{
+	background-color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: x-large;
+}
+#songProgres{
+	background-color: blue;
+	height: 1em;
+	width: 99.7%;
+	border: 2px solid grey;
+	margin-top: -2px;
+	text-align: center;
+	
+}
+
+#songControls {
+	width: 100%;
+	border: 1px solid blue;
+	color: blue;
+	font-size: 2.5em;
+	box-sizing: border-box;
+	display: inline-block;
+	border: 1px solid black;
+	}
+
+#songPassed {
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+#songButtons {
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	
+	text-align:center;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+
+#songRemain {
+	float: left;
+	width: 33.33%;
+	height: 100px;
+	
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+#songControls span {
+	color: black;
+}
+
+#songList{
+	width :99.7%;
+	border: 2px solid grey;
+	display: inline-block;
+}
+
+.songs {
+	height: 40px;
+	border-bottom: 1px solid #999999;
+	box-sizing:border-box;
+	padding: 10px;
+}
